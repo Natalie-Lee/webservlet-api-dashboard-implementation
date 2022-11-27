@@ -21,7 +21,7 @@ public class AnimalServlet extends HttpServlet {
     private static final String DATABASE_NAME = "animal_db";
     private static final String COLLECTION_NAME = "user_log";
     private AnimalModel am = null;
-    private static final String mongoDBURL = "mongodb://melody811118:807yq2A5KYz1Z2Pr@ac-vzfw3dt-shard-00-02.fi9hq62.mongodb.net:27017,ac-vzfw3dt-shard-00-01.fi9hq62.mongodb.net:27017,ac-vzfw3dt-shard-00-00.fi9hq62.mongodb.net:27017/test?w=majority&retryWrites=true&tls=true&authMechanism=SCRAM-SHA-1";
+    private static final String mongoDBURL = "";
     private MongoClient mongoClient;
     private MongoDatabase database;
     private MongoCollection<Document> collection;
